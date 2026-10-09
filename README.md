@@ -11,7 +11,7 @@ Five calls for apps on Arc, by [APEX Faucet](https://apexfaucet.xyz/arc/build/) 
 | `tokenInfo(token)` | name, supply, Circle's or not, who launched it, pools, risk signals | $0.002 |
 
 ```bash
-npm install github:apexfaucet-hub/apex-arc
+npm install apex-arc
 ```
 
 ## With a key (no wallet)
