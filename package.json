@@ -1,0 +1,13 @@
+{
+  "name": "apex-arc",
+  "version": "0.1.0",
+  "description": "Five calls for apps on Arc: send guard (address poisoning, fake USDC, sanctions), token price with 24h change, wallet balance in USD, wallet history with poisoning flags, token info. Pay with a prepaid key (no wallet) or per call over x402.",
+  "type": "module",
+  "main": "index.mjs",
+  "exports": "./index.mjs",
+  "license": "MIT",
+  "homepage": "https://apexfaucet.xyz/arc/build/",
+  "repository": "github:apexfaucet-hub/apex-arc",
+  "keywords": ["arc", "usdc", "circle", "x402", "address-poisoning", "token-price", "wallet"],
+  "optionalDependencies": { "@x402/fetch": "2.28.0", "@x402/evm": "2.28.0", "viem": "^2.21.0" }
+}
