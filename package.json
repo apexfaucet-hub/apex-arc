@@ -8,6 +8,30 @@
   "license": "MIT",
   "homepage": "https://apexfaucet.xyz/arc/build/",
   "repository": "github:apexfaucet-hub/apex-arc",
-  "keywords": ["arc", "usdc", "circle", "x402", "address-poisoning", "token-price", "wallet"],
-  "optionalDependencies": { "@x402/fetch": "2.28.0", "@x402/evm": "2.28.0", "viem": "^2.21.0" }
+  "keywords": [
+    "arc",
+    "usdc",
+    "circle",
+    "x402",
+    "address-poisoning",
+    "token-price",
+    "wallet"
+  ],
+  "optionalDependencies": {
+    "@x402/fetch": "2.28.0",
+    "@x402/evm": "2.28.0",
+    "viem": "^2.21.0"
+  },
+  "files": [
+    "index.mjs",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "APEX Faucet (https://apexfaucet.xyz)",
+  "bugs": {
+    "url": "https://github.com/apexfaucet-hub/apex-arc/issues"
+  }
 }
